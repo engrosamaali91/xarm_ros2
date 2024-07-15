@@ -56,12 +56,28 @@ $ source install/setup.bash
 
 
 【simulated】Launch moveit, controlling robot in rviz.
+#Rviz
 ```shell
 $ cd ~/dev_ws/
 # For xArm(xarm6 as example): set 'add_gripper=true' to attach xArm gripper model
 $ ros2 launch xarm_moveit_config xarm6_moveit_fake.launch.py [add_gripper:=true]
 ```
+
+#Gazebo
 Either source gazebo or add the source command in .bashrc file
 ```shell
 /usr/share/gazebo/setup.sh
+```
+Testing xarm on gazebo independently:
+```shell
+$ cd ~/dev_ws/
+# For xArm (xarm6 here):
+$ ros2 launch xarm_gazebo xarm6_beside_table_gazebo.launch.py
+```
+Simulation with moveit+gazebo (xArm controlled by moveit).
+
+```shell
+$ cd ~/dev_ws/
+# For xArm (xarm6 here):
+$ ros2 launch xarm_moveit_config xarm6_moveit_gazebo.launch.py
 ```
