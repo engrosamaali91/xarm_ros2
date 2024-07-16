@@ -81,3 +81,10 @@ $ cd ~/dev_ws/
 # For xArm (xarm6 here):
 $ ros2 launch xarm_moveit_config xarm6_moveit_gazebo.launch.py
 ```
+
+
+
+To move the robot directly from the terminal
+```shell
+ros2 topic pub /xarm6_traj_controller/joint_trajectory trajectory_msgs/msg/JointTrajectory "{joint_names: ['joint1', 'joint2', 'joint3', 'joint4', 'joint5', 'joint6'], points: [{positions: [0.0, -1.0, 1.0, -1.0, 1.0, 0.0], time_from_start: {sec: 2, nanosec: 0}}]}"
+```
