@@ -16,3 +16,16 @@ Configure and build the workspace:
 
     cd $COLCON_WS
     colcon build --event-handlers desktop_notification- status- --cmake-args -DCMAKE_BUILD_TYPE=Release
+
+
+
+
+Issue:
+
+    I solved issue by adding suggested paramter in the log file 
+    I also ignore robotique packagabuild by going into the package location 
+
+    ```shell
+    touch COLCON_IGNORE
+    ```
+    
