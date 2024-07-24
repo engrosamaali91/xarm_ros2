@@ -18,3 +18,9 @@ SSH
 ```
 ssh -X ping 192.168.68.166
 ```
+
+
+Launch movo in rviz 
+```shell
+ros2 launch movo_viz view_robot.launch.py 
+```
