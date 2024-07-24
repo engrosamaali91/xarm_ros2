@@ -1,3 +1,8 @@
+Export domain id if needed
+```shell
+export ROS_DOMAIN_ID=<domain_id>
+```
+
 #ScaN THE NETWORK 
 
 ```shell
