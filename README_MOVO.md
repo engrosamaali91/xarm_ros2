@@ -28,3 +28,10 @@ ROS2 for ZED tutorials and example
 ```shell
 https://github.com/stereolabs/zed-ros2-examples
 ```
+
+
+
+I enabled objected detection in common.yaml file 
+```
+/zed2i_ws/src/zed-ros2-wrapper/zed_wrapper/config
+```
