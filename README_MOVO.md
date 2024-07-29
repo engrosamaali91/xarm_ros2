@@ -24,3 +24,7 @@ Launch movo in rviz
 ```shell
 ros2 launch movo_viz view_robot.launch.py 
 ```
+ROS2 for ZED tutorials and example 
+```shell
+https://github.com/stereolabs/zed-ros2-examples
+```
