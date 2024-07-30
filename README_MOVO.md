@@ -28,6 +28,9 @@ ROS2 for ZED tutorials and example
 ```shell
 https://github.com/stereolabs/zed-ros2-examples
 ```
+```
+https://github.com/stereolabs/zed-sdk/tree/master/tutorials
+```
 
 
 
