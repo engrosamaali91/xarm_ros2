@@ -31,7 +31,9 @@ https://github.com/stereolabs/zed-ros2-examples
 ```
 https://github.com/stereolabs/zed-sdk/tree/master/tutorials
 ```
-
+```
+https://github.com/stereolabs/zed-sdk/tree/master/object%20detection
+```
 
 
 I enabled objected detection in common.yaml file 
