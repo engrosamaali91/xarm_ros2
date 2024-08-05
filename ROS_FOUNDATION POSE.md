@@ -38,3 +38,15 @@ mkdir -p ${ISAAC_ROS_WS}/isaac_ros_assets/${NGC_VERSION} && \
     tar -xf ${NGC_FILENAME} -C ${ISAAC_ROS_WS}/isaac_ros_assets/${NGC_VERSION} && \
     rm ${NGC_FILENAME}
 ```
+Download the CenterPose shoe ONNX file to the models repository directory with version 1:
+
+```shell
+mkdir -p ${ISAAC_ROS_WS}/isaac_ros_assets/models/centerpose_shoe/1 && \
+  cd ${ISAAC_ROS_WS}/isaac_ros_assets/models/centerpose_shoe/1 && \
+  wget --content-disposition 'https://api.ngc.nvidia.com/v2/models/org/nvidia/team/tao/centerpose/deployable_dla34/files?redirect=true&path=shoe_DLA34.onnx' -O model.onnx
+```
+Move the quickstart model configuration file to the model repository.
+
+```
+cp ${ISAAC_ROS_WS}/isaac_ros_assets/isaac_ros_centerpose/config.pbtxt ${ISAAC_ROS_WS}/isaac_ros_assets/models/centerpose_shoe/config.pbtxt
+```
