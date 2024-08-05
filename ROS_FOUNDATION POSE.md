@@ -1,3 +1,5 @@
+# Set Up Development Environment
+
 Step 1
 
 ```shell
@@ -14,3 +16,8 @@ Step 3
 ```shell
 git clone https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common.git
 ```
+Make sure required libraries are installed.
+```shell
+sudo apt-get install -y curl tar
+```
+
