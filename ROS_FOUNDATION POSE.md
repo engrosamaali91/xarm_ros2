@@ -16,6 +16,8 @@ Step 3
 ```shell
 git clone https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common.git
 ```
+
+# Download Quickstart assets
 Make sure required libraries are installed.
 ```shell
 sudo apt-get install -y curl tar
